@@ -1,0 +1,12 @@
+How it Works
+-------------
+
+Use webpack plugin (webpack/TcpPolyfill.js) to replace all `require('net')` to `require('src/TcpPolyfill.js')` when build.
+
+How to use it
+-------------
+
+var rethinkdbdash = require('rethinkdbdash-websocket-client');
+var r = rethinkdbdash(options)
+
+# vim: ft=markdown

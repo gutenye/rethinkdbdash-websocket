@@ -6,7 +6,7 @@ import EventEmitter2 from 'eventemitter2';
 let tcpPolyfillOptions = {
   path: '/',
   secure: false,
-  wsProtocols: undefined,
+  wsProtocols: undefined
 };
 
 const notImpl = name => () => {

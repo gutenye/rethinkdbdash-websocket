@@ -1,12 +1,12 @@
 {
-  "name": "rethinkdbdash-websocket-client",
-  "version": "0.2.1",
+  "name": "rethinkdbdash-websocket",
+  "version": "2.0.17-1",
   "description": "RethinkDB driver monkey-patched to connect via WebSocket. Works in browser.",
   "author": "Mike Mintz",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gutenye/rethinkdbdash-websocket-client.git"
+    "url": "https://github.com/gutenye/rethinkdbdash-websocket.git"
   },
   "scripts": {
     "prepublish": "webpack --config webpack/browser.config.js && webpack --config webpack/node.config.js"
@@ -20,6 +20,7 @@
     "bluebird": "^2.9.27",
     "eventemitter2": "^0.4.14",
     "node-libs-browser": ">= 0.4.0 <=0.6.0",
+    "object-assign": "^4.0.1",
     "rethinkdbdash": "^2.0.17",
     "ws": "^0.7.2"
   },
